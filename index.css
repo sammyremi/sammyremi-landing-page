@@ -1,34 +1,37 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 18px;
 }
 
-.container {
+.header {
+    display: flex;
     background-color: #1F2937;
-    display: flex;
-    padding: 20px;
     justify-content: space-between;
-    align-items: center;
+    align-items: center ;
+    padding: 10px 100px;
 }
 
-.container-1 {
-    display: flex;
-}
 
-img {
-    height: ;
+.logo {
+    color: #fff;
+    font-weight: 900;
+    font-size: 24px;
 }
 
 .links {
     display: flex;
     list-style: none;
-    gap: 15px;
+    gap: 20px;
+}
+
+img {
+    width: 500px;
+    height: 250px;
 }
 
 a {
@@ -36,8 +39,84 @@ a {
     color: #fff;
 }
 
-.logo {
+.container-1 {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 100px;
+
+}
+
+.container-1 p {
+    color: #FFF;
+    margin-bottom: 10px;
+}
+
+.button-1 {
+    color: #FFF;
+    background-color: #3882F6;
+    border: none;
+    padding: 8px 25px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+.big-text {
     font-weight: 900;
+    font-size: 48px;
+    color: #FFF;
+}
+
+.big-title {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-weight: bold;
     font-size: 36px;
-    color: #fff;
+    color: #1F2937;
+}
+
+
+.box {
+    color: #3882F6;
+    width: 150px;
+    height: 150px;
+    border: 4px solid;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.boxes {
+    display: flex;
+    padding: 0 200px;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.container-3 {
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.thor {
+    display: flex;
+    justify-content: end;
+    padding-right: 30px;
+    font-size: 22px;
+    font-weight: 900;
 }
