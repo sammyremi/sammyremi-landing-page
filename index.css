@@ -13,7 +13,7 @@ body {
     background-color: #1F2937;
     justify-content: space-between;
     align-items: center ;
-    padding: 20px 250px;
+    padding: 20px 150px;
 }
 
 
@@ -44,7 +44,7 @@ a {
     background-color: #1F2937;
     align-items: center;
     gap: 50px;
-    padding: 100px 250px;
+    padding: 100px 150px;
 
 }
 
@@ -90,8 +90,10 @@ a {
 }
 
 .boxes {
+    gap: 15px;
     display: flex;
-    padding: 0 400px;
+    padding: 0 200px;
+    justify-content: center;
 }
 
 .box1 {
@@ -104,7 +106,7 @@ a {
 
 .container-3 {
     background-color: #E5E7EB;
-    padding: 100px 400px;
+    padding: 100px 200px;
 }
 
 .quote {
@@ -116,7 +118,7 @@ a {
 .thor {
     display: flex;
     justify-content: end;
-    padding-right: 30px;
+    padding-right: 40px;
     font-size: 22px;
     font-weight: 900;
 }
@@ -132,7 +134,7 @@ a {
 }
 
 .container-4 {
-    padding: 100px 300px;
+    padding: 100px 200px;
 }
 
 .inner-call {
