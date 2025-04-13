@@ -13,7 +13,7 @@ body {
     background-color: #1F2937;
     justify-content: space-between;
     align-items: center ;
-    padding: 10px 100px;
+    padding: 20px 250px;
 }
 
 
@@ -44,7 +44,7 @@ a {
     background-color: #1F2937;
     align-items: center;
     gap: 50px;
-    padding: 100px 100px;
+    padding: 100px 250px;
 
 }
 
@@ -91,7 +91,7 @@ a {
 
 .boxes {
     display: flex;
-    padding: 0 200px;
+    padding: 0 400px;
 }
 
 .box1 {
@@ -104,7 +104,7 @@ a {
 
 .container-3 {
     background-color: #E5E7EB;
-    padding: 100px 200px;
+    padding: 100px 400px;
 }
 
 .quote {
@@ -119,4 +119,42 @@ a {
     padding-right: 30px;
     font-size: 22px;
     font-weight: 900;
+}
+
+.call-container {
+    display: flex;
+    padding: 50px 100px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    justify-content: space-between;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.container-4 {
+    padding: 100px 300px;
+}
+
+.inner-call {
+    font-weight: 900;
+}
+
+.call-container button {
+    color: #FFF;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    border-radius: 10px;
+    border-color: #FFF;
+    border: 2px solid;
+}
+
+.footer {
+    display: flex;
+    border: 2px solid;
+    padding: 20px;
+    font-size: small;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #FFF;
+
 }
